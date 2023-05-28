@@ -1,0 +1,95 @@
+body {
+  background-color:#FF0F5;
+  font-family: "Segoe UI";
+}
+a:hover{
+  color:#F5F5DC;
+}
+h1{
+  color:#F0F8FF;
+  text-align: center;
+  font-size:200%;
+}
+
+#block {
+  float:left;
+  display: block;
+  width:30%;
+  border:1px solid blue;
+  margin: 2px;
+    
+}
+
+#block1 {
+  display: inline-block;
+  width:32%;
+  border:1px solid pink;
+  margin: 2px;
+}
+
+#block2 {
+  display: inline-block;
+  font-size: 125%;
+  width:30%;
+  border:1px solid pink;
+  margin: 10px;
+}
+
+#block3 {
+ 
+  display: inline-block;
+  width:35%;
+  border:1px solid pink;
+  margin: 2px;
+}
+
+.foto2 {
+  display:inline-block;
+}
+    
+p, div{
+  font-size: 95%;
+  color: white;
+}
+
+img {
+  align-self: center;
+}
+main{
+  align-items: center;
+  background-color: pink;
+  justify-content: center;
+}
+footer {
+  background-color: #F5F5DC;
+  width: 1005;
+  padding: 1%;
+   animation-name: example;
+   animation-duration: 14s;
+}
+@keyframes example {
+  0% {background-color: beige;}
+  50% {background-color: white;}
+  100% {background-color: pink;}
+    
+}
+h2{
+   color: white;
+  text-align: center;
+  font-size:120%;
+  width: 100%;
+  height: 40px;
+  background-color: #A9A9A9;
+  animation-name: example;
+  animation-durration: 8s;
+}
+h1{
+   color: pink;
+  text-align: center;
+  font-size:120%;
+  width: 100%;
+  height: 30px;
+  background-color: #FFAF0;
+  animation-name: example2;
+  animation-durration: 8s;
+}
